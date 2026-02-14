@@ -2,6 +2,8 @@
   "expo": {
     "name": "SolScan",
     "slug": "SolScan",
+    "scheme": "solscan",
+    "plugins": ["expo-router"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +23,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.bluntbrain.SolScan"
     },
     "web": {
       "favicon": "./assets/favicon.png"
